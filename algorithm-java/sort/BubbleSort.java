@@ -6,7 +6,6 @@ public class BubbleSort {
 
 	public static void main(String[] args) {
 		executeSorting(sampleArr.length - 1);
-
 	}
 	
 	private static void executeSorting(int end) {
