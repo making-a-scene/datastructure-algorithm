@@ -33,4 +33,15 @@ public class BubbleSort {
 		sampleArr[target + 1] = temp;
 	}
 
+	public static void bubbleSortLec(int[] nums) {
+		for (int i = 0; i < nums.length; ++i) {
+			for (int j = 0; j < nums.length - i - 1; ++j) {
+				// 내림차순 구현시 부등호 방향을 바꾸면 됨.
+				if (nums[j] > nums[j + 1]) {
+					swap(j);
+				}
+			}
+		}
+
+	}
 }
