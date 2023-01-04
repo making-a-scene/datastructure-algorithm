@@ -23,7 +23,7 @@ public class QuickSortLec {
         swap(pointer, pivot);
 
         quickSort(start, pointer - 1);
-        quickSort(pointer, pivot);
+        quickSort(pointer + 1, pivot);
     }
 
     private static void swap(int a, int b) {
@@ -32,3 +32,4 @@ public class QuickSortLec {
         sampleArr[b] = temp;
     }
 }
+      
