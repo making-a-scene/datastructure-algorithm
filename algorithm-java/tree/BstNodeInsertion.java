@@ -17,7 +17,7 @@ public class BstNodeInsertion {
         printNode(root);
     }
 	
-	private static Node insertNode(Node node, int data) {
+	public static Node insertNode(Node node, int data) {
 		if (node == null) {
             return new Node(data);
 		}
