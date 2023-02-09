@@ -1,7 +1,7 @@
 package tree;
 
 public class Node {
-    private final int data;
+    private int data;
     private Node left;
     private Node right; 
 
@@ -30,5 +30,8 @@ public class Node {
     public void setRight(Node right) {
         this.right = right;
     }
-    
+
+    public void setData(int data) {
+        this.data = data;
+    }
 }

@@ -13,8 +13,8 @@ public class PasswordHashing {
         );
 
         boolean wrongPw = user.isValidPassword("wrong password!");
-        System.out.println("Expected: false, Actual:  " + wrongPw);
+        System.out.println("Expected: false, Actual: " + wrongPw);
         boolean rightPw = user.isValidPassword("MyStRoNg P@$$word");
-        System.out.println("Expected: true, Actual:  " + rightPw);
+        System.out.println("Expected: true, Actual: " + rightPw);
     }
 }

@@ -13,8 +13,6 @@ public class SortingApplication {
         printNums(nums);
         Arrays.sort(nums);
         System.out.println("Minimum Difference : " + findMinDiff(nums));
-
-
     }
 
     private static int findMinDiff(int[] nums) {

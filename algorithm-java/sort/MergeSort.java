@@ -1,5 +1,3 @@
-package sort;
-
 public class MergeSort {
 
 	public static int[] src;
